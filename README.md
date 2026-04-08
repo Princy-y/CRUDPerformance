@@ -32,18 +32,16 @@ CREATE TABLE students (
     department VARCHAR(50)
 );
 ```
+
 ## Output
-Insert Time: 5399 ms
-Read Time: 50 ms
-Update Time: 2275 ms
-Delete Time: 2729 ms
+- Insert Time: 5399 ms
+- Read Time: 50 ms
+- Update Time: 2275 ms
+- Delete Time: 2729 ms
 
-
----
-
-```markdown
+```
+``` markdown
 ## Conclusion
-
 Insert operations take more time due to disk writes,
 while read operations are faster due to caching.
 Performance varies based on number of records.
