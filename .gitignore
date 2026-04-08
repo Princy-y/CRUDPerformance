@@ -1,0 +1,6 @@
+bin/
+.vscode/
+*.class
+*.jar
+Main.java
+lib/
