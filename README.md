@@ -1,18 +1,18 @@
-## Getting Started
+# Java CRUD Performance Analysis
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project analyzes performance of CRUD operations using Java (JDBC) and MySQL.
 
-## Folder Structure
+## Features
+- Insert, Read, Update, Delete operations
+- Performance measurement using System.nanoTime()
 
-The workspace contains two folders by default, where:
+## Technologies
+- Java
+- MySQL
+- JDBC
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Output
+Insert Time: 5399 ms
+Read Time: 50 ms
+Update Time: 2275 ms
+Delete Time: 2729 ms
